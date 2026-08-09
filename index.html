@@ -17,7 +17,7 @@
   <main id="chatBox" class="flex-1 overflow-y-auto p-4 space-y-4 max-w-3xl w-full mx-auto">
     <div class="bg-gray-800 p-3 rounded-lg border border-gray-700">
       <p class="text-sm font-semibold text-emerald-400">AI Assistant</p>
-      <p class="text-sm text-gray-300 mt-1">Hello! I am your personal AI assistant. How can I help you today?</p>
+      <p class="text-sm text-gray-300 mt-1">Hello! I am ready to help you. Ask me anything!</p>
     </div>
   </main>
 
@@ -63,7 +63,7 @@
             "X-Title": "My Custom AI"
           },
           body: JSON.stringify({
-            model: "google/gemini-2.0-flash-exp:free",
+            model: "meta-llama/llama-3.3-70b-instruct:free",
             messages: [{ role: "user", content: prompt }]
           })
         });
@@ -72,7 +72,7 @@
 
         if (data.error) {
           loadingDiv.querySelector('p:last-child').className = "text-sm text-red-400 mt-1";
-          loadingDiv.querySelector('p:last-child').innerText = "API Error: " + (data.error.message || "Invalid Key");
+          loadingDiv.querySelector('p:last-child').innerText = "API Error: " + (data.error.message || "Invalid Key or Endpoint");
           return;
         }
 
