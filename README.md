@@ -1,1 +1,24 @@
-<img width="1724" height="1053" alt="image" src="https://github.com/user-attachments/assets/ed0c02a6-34af-40d6-9a84-b317d8a9fe65" /><img width="1724" height="1053" alt="image" src="https://github.com/user-attachments/assets/0fae6f19-b23f-4e98-8a4a-efaa0adb1743" />
+# My Personal AI Web App
+
+A clean, fast, and responsive ChatGPT-style web application built with HTML, Tailwind CSS, and JavaScript. Powered by OpenRouter API and hosted on GitHub Pages.
+
+Live Web App: https://prakhar6180-glitch.github.io/my-custom-ai/
+
+## Features
+
+- **Modern Dark UI:** Styled with Tailwind CSS for a clean, sleek interface.
+- **Fast AI Responses:** Connected to OpenRouter's free AI models.
+- **Mobile Friendly:** Fully responsive design that works on mobile and desktop browsers.
+- **Instant Deployment:** Hosted 100% free on GitHub Pages.
+
+## Tech Stack
+
+- **Frontend:** HTML5, Tailwind CSS, JavaScript (Fetch API)
+- **AI Engine:** OpenRouter API
+- **Hosting:** GitHub Pages
+
+## How to Run Locally
+
+1. Clone or download this repository.
+2. Open `index.html` directly in any modern web browser.
+3. Start chatting!
